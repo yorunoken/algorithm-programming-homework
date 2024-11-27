@@ -2,22 +2,22 @@
 
 using namespace std;
 
-// This homework asks the user to input a number, and then draws a right triangle with the height of the user's number
+// Bu ödev kullanıcıdan bir sayı girmesini ister ve kullanıcının girdiği sayı yüksekliğinde dik üçgen çizer
 int main()
 {
-    // Ask the user for the height of the triangle
-    cout << "Please input a number for the height of the right triangle: ";
-    int triangle_height;
-    cin >> triangle_height;
+    // Kullanıcıdan üçgenin yüksekliğini iste
+    cout << "Lutfen dik ucgenin yuksekligi icin bir sayi giriniz: ";
+    int ucgen_yuksekligi;
+    cin >> ucgen_yuksekligi;
 
-    // Loop over the height, starting from lowest to highest
-    for(int i = 0; i < triangle_height; i++) {
-        // Loop over the height numbers themselves to print a * to the console
+    // Yükseklik boyunca en düşükten en yükseğe doğru döngü kur
+    for(int i = 0; i < ucgen_yuksekligi; i++) {
+        // Yükseklik sayıları üzerinde döngü kurarak konsola * yazdır
         for(int j = 0; j <= i; j++) {
             cout << "*";
         }
 
-        // Add a endline at the end so it skips one line below at the end of every loop
+        // Her döngü sonunda bir alt satıra geçmek için satır sonu ekle
         cout << endl;
     }
 
