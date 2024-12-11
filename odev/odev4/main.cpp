@@ -11,10 +11,10 @@ using namespace std;
 int main() {
     int ortalama;
 
-    cout << "Sinav ortalamasini giriniz: ";
+    cout << "Sınav ortalamanızı giriniz: ";
     cin >> ortalama;
 
-    // Burada >= yapmamiz onemli, cunku 90 ve ustunu istiyor
+    // Burada >= yapmamiz onemli, cunku 90 ve ustunu istiyor etc
     if (ortalama >= 90) {
         cout << "AA" << endl;
     } else if (ortalama >= 70) {
@@ -22,6 +22,6 @@ int main() {
     } else if (ortalama >= 50) {
         cout << "CC" << endl;
     } else {
-        cout << "Basarisiz" << endl;
+        cout << "Başarısız" << endl;
     }
 }

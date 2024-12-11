@@ -5,15 +5,15 @@
 using namespace std;
 
 int main() {
-    int sayi;
-    cout << "sayi gir: ";
-    cin >> sayi;
+	int sayi;
+	cout << "Sayı girin: ";
+	cin >> sayi;
 
-    if (sayi == 0) {
-        cout << "Sayi notrdur" << endl;
-    } else if (sayi > 0) {
-        cout << "Sayi pozitiftir" << endl;
-    } else {
-        cout << "Sayi negatiftir" << endl;
-    }
+	if (sayi == 0) {
+    	cout << "Sayı nötrdür" << endl;
+	} else if (sayi > 0) {
+    	cout << "Sayı pozitiftir" << endl;
+	} else {
+    	cout << "Sayı negatiftir" << endl;
+	}
 }

@@ -8,23 +8,22 @@ using namespace std;
 int main() {
     int sayi1, sayi2;
 
-    cout << "Ilk sayi gir: ";
+    cout << "İlk sayıyı girin: ";
     cin >> sayi1;
 
-    cout << "Ikinci sayi gir: ";
+    cout << "İkinci sayıyı girin: ";
     cin >> sayi2;
 
-    int en_kucuk_sayi;
-
-    if (sayi1 > sayi2) {
-        en_kucuk_sayi = sayi2;
-    } else {
-        en_kucuk_sayi = sayi1;
+    if (sayi1 == sayi2) {
+        cout << "İki sayı birbine eşittir, lütfen birbirine eşit olmayan sayılar seçiniz." << endl;
+        return 0;
     }
 
-    if (en_kucuk_sayi % 2 == 0) {
-        cout << "En kucuk sayi: " << en_kucuk_sayi << "Cifttir." << endl;
+    int kucuk_sayi = sayi1 > sayi2 ? sayi2 : sayi1;
+
+    if (kucuk_sayi % 2 == 0) {
+        cout << "En küçük sayı: " << kucuk_sayi << ", Çifttir." << endl;
     } else {
-        cout << "En kucuk sayi: " << en_kucuk_sayi << "Tektir." << endl;
+        cout << "En küçük sayı: " << kucuk_sayi << ", Tektir." << endl;
     }
 }
