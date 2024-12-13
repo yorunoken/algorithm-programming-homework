@@ -1,7 +1,7 @@
 // Odev: Kullanıcının girdiği iki sayıdan küçüğünü bulup,
 // tek mi çift mi olduğunu ekrana yazdıran C++ kodunu yazınız.
 
-#include  <iostream>
+#include <iostream>
 
 using namespace std;
 

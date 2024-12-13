@@ -4,7 +4,7 @@
 // 50 ve üstü: CC
 // 50 altı: Başarısız.
 
-#include  <iostream>
+#include <iostream>
 
 using namespace std;
 

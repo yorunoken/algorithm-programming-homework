@@ -1,7 +1,7 @@
 // Bilgisayar rastgele (0,100) aralığında bir sayı üretmeli, kullanıcı ise bu sayıyı doğru tahmin etmeye çalışmalıdır.
 // Tahminler yanlış ise kullanıcı doğru cevaba yönlendirilmelidir.
 
-# include <iostream>
+#include <iostream>
 
 using namespace std;
 

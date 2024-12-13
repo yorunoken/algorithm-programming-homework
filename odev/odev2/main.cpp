@@ -1,6 +1,6 @@
 // Ödev: Kullanıcının girdiği sayının negatif, pozitif ya da nötr olduğunu bulan C++ kodunu yazınız.
 
-#include  <iostream>
+#include <iostream>
 
 using namespace std;
 
